@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/goods-list/goods-list",
+    "pages/detail/detail",
+    "pages/pay/pay",
+    "pages/get-user-info/get-user-info",
+    "pages/order/order",
+    "pages/collected/collected",
+    "pages/search-page/search-page",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "购物街",
+    "navigationBarBackgroundColor": "#FF8E98",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#f00",
+    "backgroundColor": "#F6F6F6",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "text": "首页",
+        "selectedIconPath": "static/img/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/img/tabbar/news.png",
+        "text": "分类",
+        "selectedIconPath": "static/img/tabbar/news-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/img/tabbar/cart.png",
+        "text": "购物车",
+        "selectedIconPath": "static/img/tabbar/cart-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/img/tabbar/member.png",
+        "text": "会员",
+        "selectedIconPath": "static/img/tabbar/member-active.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "购物街",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

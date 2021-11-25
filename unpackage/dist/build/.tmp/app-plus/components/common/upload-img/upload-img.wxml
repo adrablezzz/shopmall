@@ -1,0 +1,1 @@
+<view class="img-wrapper"><image src="{{image}}" mode></image><icon type="clear" color="#f00"></icon></view>

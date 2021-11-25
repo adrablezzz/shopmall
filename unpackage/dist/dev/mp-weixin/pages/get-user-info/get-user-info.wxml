@@ -1,0 +1,1 @@
+<view><button class="btn" type="primary" plain="{{true}}" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">授权</button></view>

@@ -1,0 +1,1 @@
+<view class="tabbar-wrapper"><block wx:for="{{tabbar}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['tabbarClick',[index]]]]]}}" class="{{['tabbar-item',(index===currentIndex)?'active':'']}}" bindtap="__e">{{''+item+''}}</view></block></view>
